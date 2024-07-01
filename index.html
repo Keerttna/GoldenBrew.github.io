@@ -58,19 +58,16 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="about.html">About</a>
+                                <a class="nav-link" href="#about">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#menu">Menu</a>
+                                <a class="nav-link" href="#top-cards">Top Categories</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="products.html">Products</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#gallery">Gallery</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="contact.html">Contact</a>
@@ -78,10 +75,18 @@
 
 
                         </ul>
-                        <form class="d-flex">
+
+                        <!-- <form class="d-flex">
                             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                             <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
+                        </form> -->
+
+                        <div class="navbar-icons d-flex">
+                            <a href="#" class="nav-link icon-link"><i class="fa-solid fa-heart icon"></i></a>
+                            <a href="#" class="nav-link icon-link"><i class="fa-solid fa-shopping-cart icon"></i></a>
+                            <a href="#" class="nav-link icon-link"><i class="fa-solid fa-user icon"></i></a>
+                        </div>
+
                     </div>
                 </div>
             </nav>
@@ -101,7 +106,9 @@
                         your day or taking a break, let us elevate your coffee experience. Welcome to a place where
                         coffee isn't just a drink—it's an experience.</p>
 
-                    <button id="shop-btn">Shop Now</button>
+                    <a href="products.html">
+                        <button id="shop-btn">Shop Now</button>
+                    </a>
 
                 </div>
             </section>
@@ -114,7 +121,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="card">
-                                <img src="./img/homeabt.jpg" alt="Coffee cup!">
+                                <img src="./img/homeabt.jpg" alt="Coffee cup!" title="Enjoy your coffee!">
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -137,125 +144,6 @@
             <!-- Top cards -->
             <section id="top-cards">
 
-                <!-- <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                                <ol class="carousel-indicators">
-                                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active">
-                                    </li>
-                                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
-                                </ol>
-
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <div class="row">
-                                            <div class="col-md-4">
-                                                <div class="single-box">
-                                                    <div class="img-area"><img src="img/top-americano.jpeg"
-                                                            alt="Americano"></div>
-                                                    <div class="img-txt">
-                                                        <h3>Americano</h3>
-                                                        <p>An Americano is a sophisticated blend of rich espresso gently
-                                                            diluted
-                                                            with hot water, creating an exquisite and luxurious coffee
-                                                            experience.
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4">
-                                                <div class="single-box">
-                                                    <div class="img-area"><img src="img/top-cappuccino.jpeg"
-                                                            alt="Cappuccino"></div>
-                                                    <div class="img-txt">
-                                                        <h3>Cappuccino</h3>
-                                                        <p>Cappuccino is an espresso-based coffee drink that is
-                                                            traditionally
-                                                            prepared with steamed milk including a layer of milk foam.
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4">
-                                                <div class="single-box">
-                                                    <div class="img-area"><img src="img/top-cafe-mocha.jpeg"
-                                                            alt="Mocaccino"></div>
-                                                    <div class="img-txt">
-                                                        <h3>Caffè mocha</h3>
-                                                        <p>A caffè mocha, also called mocaccino, is a
-                                                            chocolate-flavoured warm
-                                                            beverage that is a variant of a caffè latte, commonly served
-                                                            in a glass
-                                                            rather than a mug.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="carousel-item">
-                                        <div class="row">
-                                            <div class="col-md-4">
-                                                <div class="single-box">
-                                                    <div class="img-area"><img src="img/top-arabica.jpeg" alt="Arabica">
-                                                    </div>
-                                                    <div class="img-txt">
-                                                        <h3>Arabica</h3>
-                                                        <p>Coffee Arabica is an exquisite and premium coffee variety
-                                                            known for its
-                                                            smooth, rich flavor and aromatic notes, offering a truly
-                                                            sophisticated
-                                                            and refined coffee experience.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4">
-                                                <div class="single-box">
-                                                    <div class="img-area"><img src="img/top-liberca.jpeg" alt="Liberca">
-                                                    </div>
-                                                    <div class="img-txt">
-                                                        <h3>Liberca</h3>
-                                                        <p>Coffee Liberica is a unique bean, with a bold and full-bodied
-                                                            taste that
-                                                            is often described as smoky, woody, and slightly nutty. </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4">
-                                                <div class="single-box">
-                                                    <div class="img-area"><img src="img/top-robusta.jpeg" alt="Robusta">
-                                                    </div>
-                                                    <div class="img-txt">
-                                                        <h3>Robusta</h3>
-                                                        <p>Robusta is a bold and invigorating coffee variety, renowned
-                                                            for its
-                                                            strong, full-bodied flavor and higher caffeine content,
-                                                            delivering a
-                                                            powerful and robust coffee experience.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
-                                    data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
-                                    data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Next</span>
-                                </a>
-
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
-
                 <div class="container swiper">
                     <div class="heading2">Top <span>Categories</span></div>
                     <div class="slider-wrapper">
@@ -273,8 +161,8 @@
                             <div class="card-item swiper-slide">
                                 <img src="img/top-cafe-mocha.jpeg" alt="Mocaccino" class="top-img">
                                 <h3 class="top-name">Cafe Mocha</h3>
-                                <p class="top-decription">A caffè mocha, also called mocaccino, is a
-                                    chocolate-flavoured warm beverage that is a variant of a caffè latte, commonly
+                                <p class="top-decription">A caffè mocha, also called mocaccino, is a chocolate-flavoured
+                                    warm beverage that is a variant of a caffè latte, commonly
                                     served in a glass rather than a mug.</p>
                                 <button class="top-bt">Shop now</button>
                             </div>
