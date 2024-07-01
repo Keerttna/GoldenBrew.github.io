@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Golden Brew</title>
+
+        <link rel="shortcut icon" href="img/coffee-cup.png" type="image/x-icon">
+
+        <link rel="stylesheet" href="style.css">
+
+        <!-- Bootstrap link -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <!-- Bootstrap link -->
+
+        <!-- Icons link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <!-- Icons link -->
+
+
+        <!-- Fonts link-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet">
+        <!-- Fonts link-->
+
+    </head>
+
+    <body>
+
+        <div class="all-content">
+
+            <!-- Navbar start -->
+            <nav class="navbar navbar-expand-lg" id="navbar">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#" id="logo"><img src="img/navbar-logo.png"
+                            alt="Golden Brew Logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span><i class="fa-solid fa-bars" style="color: white; font-size: 23px;"></i></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#menu">Menu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="products.html">Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#gallery">Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+
+
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+            <!-- Navbar end -->
+
+            <!-- Home section start -->
+            <section id="home">
+                <div class="content">
+                    <h3>Welcome to Golden Brew:
+                        <br>
+                        <h2>Elevating Your Coffee Experience!</h2>
+                    </h3>
+
+                    <p>
+                        At Golden Brew, we craft every cup with passion and precision. Experience the golden standard in
+                        coffee, where every sip transports you to a realm of exquisite flavor. Whether you're starting
+                        your day or taking a break, let us elevate your coffee experience. Welcome to a place where
+                        coffee isn't just a drink—it's an experience.</p>
+
+                    <button id="shop-btn">Shop Now</button>
+
+                </div>
+            </section>
+            <!-- Home section end -->
+
+            <!-- About section start -->
+            <div class="about" id="about">
+                <div class="container">
+                    <div class="heading">About <span>Us</span></div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card">
+                                <img src="./img/homeabt.jpg" alt="Coffee cup!">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h3>What Makes Our Coffee Special?</h3>
+                            <p>At <span>Golden Brew</span>, our passion for coffee drives us to deliver an
+                                extraordinary experience in every cup. We source the finest beans from sustainable farms
+                                around the world, and our master roasters meticulously craft each batch to perfection,
+                                ensuring a rich, smooth, and satisfying flavor. Our selection of innovative blends and
+                                distinctive single-origin coffees caters to every palate, offering a journey through
+                                diverse and complex taste profiles. Join us at Golden Brew and discover what makes our
+                                coffee truly special—where every cup tells a story.
+                            </p>
+                            <button id="about-btn">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- About section end -->
+
+            <!-- Top cards -->
+            <section class="top-cards">
+                <div class="heading2">Top <span>Categories</span></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active">
+                                    </li>
+                                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                                </ol>
+
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="single-box">
+                                                    <div class="img-area"><img src="img/top-americano.jpeg"
+                                                            alt="Americano"></div>
+                                                    <div class="img-txt">
+                                                        <h3>Americano</h3>
+                                                        <p>An Americano is a sophisticated blend of rich espresso gently
+                                                            diluted
+                                                            with hot water, creating an exquisite and luxurious coffee
+                                                            experience.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="single-box">
+                                                    <div class="img-area"><img src="img/top-cappuccino.jpeg"
+                                                            alt="Cappuccino"></div>
+                                                    <div class="img-txt">
+                                                        <h3>Cappuccino</h3>
+                                                        <p>Cappuccino is an espresso-based coffee drink that is
+                                                            traditionally
+                                                            prepared with steamed milk including a layer of milk foam.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="single-box">
+                                                    <div class="img-area"><img src="img/top-cafe-mocha.jpeg"
+                                                            alt="Mocaccino"></div>
+                                                    <div class="img-txt">
+                                                        <h3>Caffè mocha</h3>
+                                                        <p>A caffè mocha, also called mocaccino, is a
+                                                            chocolate-flavoured warm
+                                                            beverage that is a variant of a caffè latte, commonly served
+                                                            in a glass
+                                                            rather than a mug.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="single-box">
+                                                    <div class="img-area"><img src="img/top-arabica.jpeg" alt="Arabica">
+                                                    </div>
+                                                    <div class="img-txt">
+                                                        <h3>Arabica</h3>
+                                                        <p>Coffee Arabica is an exquisite and premium coffee variety
+                                                            known for its
+                                                            smooth, rich flavor and aromatic notes, offering a truly
+                                                            sophisticated
+                                                            and refined coffee experience.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="single-box">
+                                                    <div class="img-area"><img src="img/top-liberca.jpeg" alt="Liberca">
+                                                    </div>
+                                                    <div class="img-txt">
+                                                        <h3>Liberca</h3>
+                                                        <p>Coffee Liberica is a unique bean, with a bold and full-bodied
+                                                            taste that
+                                                            is often described as smoky, woody, and slightly nutty. </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="single-box">
+                                                    <div class="img-area"><img src="img/top-robusta.jpeg" alt="Robusta">
+                                                    </div>
+                                                    <div class="img-txt">
+                                                        <h3>Robusta</h3>
+                                                        <p>Robusta is a bold and invigorating coffee variety, renowned
+                                                            for its
+                                                            strong, full-bodied flavor and higher caffeine content,
+                                                            delivering a
+                                                            powerful and robust coffee experience.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                                    data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                    data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Top cards -->
+
+
+
+        </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+    </body>
+
+</html>
