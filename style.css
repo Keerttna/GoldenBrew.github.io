@@ -284,7 +284,7 @@ html ::-webkit-scrollbar {
 /* Testimonials start */
 #testimonial {
   width: 100%;
-  height: auto;
+  height: 100vh;
   background: #f7f5f2;
   font-family: "Roboto", sans-serif;
 }
@@ -309,7 +309,6 @@ html ::-webkit-scrollbar {
   margin-left: 10px;
   margin-right: 20px;
   border-radius: 10px;
-  position: relative;
 }
 
 #testimonial .content {
@@ -318,12 +317,10 @@ html ::-webkit-scrollbar {
   border-radius: 10px;
   position: relative;
   margin-bottom: 10px;
-  padding-bottom: 20px;
 }
 
 #testimonial .content:hover {
   box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.3);
-
   cursor: pointer;
   transition: 0.5s;
 }
@@ -381,6 +378,91 @@ html ::-webkit-scrollbar {
 }
 
 /* Testimonials end */
+
+/* Footer start */
+
+#footer {
+  background: #b2744c;
+  color: white;
+  width: 100%;
+  padding: 55px 30px 20px;
+  margin-top: 50px;
+  position: relative;
+}
+
+#footer .footer-logo img {
+  border-radius: 10px;
+  width: 200px;
+  margin-bottom: 30px;
+}
+
+#footer .social-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#footer .social-icons a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+#footer .social-icons a i {
+  font-size: 1.3em;
+  color: black;
+  opacity: 0.9;
+}
+
+#footer .social-icons a:hover i {
+  color: rgb(202, 87, 5);
+  transition: 0.5s;
+}
+
+#footer .foot-navbar {
+  margin: 30px 0;
+}
+
+#footer .foot-navbar ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+#footer .foot-navbar ul li {
+  margin: 0 15px;
+}
+
+#footer .foot-navbar ul li a {
+  color: black;
+  margin: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+#footer .foot-navbar ul li a:hover {
+  color: #f7f5f2;
+  opacity: 1;
+}
+
+#footer .arrow {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#footer .arrow:hover img {
+  color: #f7f5f2;
+  filter: brightness(0) invert(1);
+}
+
+/* Footer end */
 
 @media (max-width: 992px) {
   #logo img {
