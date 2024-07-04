@@ -164,6 +164,10 @@ html ::-webkit-scrollbar {
   padding-right: 1em;
 }
 
+#about a {
+  text-decoration: none;
+}
+
 #about-btn {
   display: block;
   width: 170px;
@@ -513,7 +517,7 @@ html ::-webkit-scrollbar {
 
 #contact-page-1 .msg-request p {
   text-align: center;
-} 
+}
 
 #contact-page-2 {
   max-width: 100%;
@@ -526,21 +530,19 @@ html ::-webkit-scrollbar {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column; 
+  flex-direction: column;
   color: #fff;
 }
 
 #contact-page-2 .heading2 {
   color: #b2744c;
-  
+
   font-size: 30px;
   font-weight: bold;
   margin-bottom: 50px;
-  
 }
 
-
-#contact-page-2  p {
+#contact-page-2 p {
   font-size: 16px;
   font-weight: 300;
 }
@@ -604,7 +606,7 @@ html ::-webkit-scrollbar {
   font-weight: bold;
 }
 
-#contact-page-2 .contact-form .input-box{
+#contact-page-2 .contact-form .input-box {
   position: relative;
   width: 100%;
   margin-top: 10px;
@@ -640,7 +642,6 @@ html ::-webkit-scrollbar {
   color: rgb(67, 2, 2);
   transform: translateY(-20px);
   font-size: 12px;
-
 }
 
 #contact-page-2 .input-box input[type="submit"] {
@@ -659,14 +660,189 @@ html ::-webkit-scrollbar {
 #contact-footer .footer {
   margin-top: 0px;
 }
-
-
-
-
-
-
-
 /* Contact us end */
+
+/* About us page start */
+
+#about-page {
+  width: 100%;
+  height: 90vh;
+  background: #f7f5f2;
+  font-family: "Roboto", sans-serif;
+}
+
+#about-page .container {
+  padding-top: 50px;
+}
+
+#about-page .heading {
+  text-align: center;
+  margin-bottom: 40px;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#about-page .heading span {
+  color: #b2744c;
+}
+
+#about-page .card,
+#mission .card {
+  margin-left: 10px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+#about-page .card img,
+#mission .card img {
+  border-radius: 10px;
+  height: 300px;
+}
+
+#about-page .container h3 {
+  margin-top: 20px;
+}
+
+#about-page .container p,
+#mission p {
+  margin-top: 16px;
+  font-size: 14px;
+  line-height: 1.7;
+  text-align: justify;
+  padding-right: 1em;
+}
+
+#about-page a {
+  text-decoration: none;
+}
+
+#about-page-btn {
+  display: block;
+  width: 170px;
+  height: 36px;
+  background: transparent;
+  border: 2px solid #b2744c;
+  color: #b2744c;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.5s;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+#about-page-btn:hover {
+  background: #b2744c;
+  color: white;
+}
+
+#mission {
+  max-width: 100%;
+  display: flex;
+  min-height: 100vh;
+  background-color: #34302d;
+  background-position: 80%;
+}
+
+#mission .heading {
+  text-align: center;
+  margin-bottom: 40px;
+  color: whitesmoke;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+#mission .heading span {
+  color: #b2744c;
+}
+
+#mission p {
+  color: whitesmoke;
+  font-size: 16px;
+}
+
+#mission blockquote {
+  background: #cbcaca;
+  border-radius: 10%;
+  font-size: 16px;
+  line-height: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  max-width: 600px;
+  margin: 40px auto;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#mission blockquote::before {
+  content: "\275B	\275B";
+  font-size: 45px;
+  position: relative;
+  color: #ff9800;
+  line-height: 20px;
+  top: 2px;
+  bottom: -15px;
+  right: 5px;
+}
+
+#mission blockquote::after {
+  content: "\275C	\275C";
+  font-size: 45px;
+  position: relative;
+  color: #ff9800;
+  line-height: 10px;
+  bottom: -15px;
+  left: 5px;
+}
+
+#our-company {
+  width: 100%;
+  height: 100vh;
+  background: #f7f5f2;
+  font-family: "Roboto", sans-serif;
+}
+
+#our-company .container {
+  padding-top: 50px;
+}
+
+#our-company .heading {
+  text-align: center;
+  margin-bottom: 40px;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#our-company .heading span {
+  color: #b2744c;
+}
+
+#our-company .story {
+  text-align: justify;
+  margin-right: 20px;
+
+}
+
+#our-company h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#our-company p {
+  font-size: 14px;
+}
+
+#our-company li {
+  font-size: 14px;
+  line-height: 1.8;
+  text-align: justify;
+}
+/* About us page end */
 
 @media (max-width: 992px) {
   #logo img {
